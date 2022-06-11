@@ -7,5 +7,9 @@ def printVars:
   print('Variable2 = ' + var2)
   print('The script and variables used are', str(sys.argv))
   
+def helloWorld():
+  print('Hello World')
+  
 if __name__ == '__main__':
   printVars()
+  helloWorld()
